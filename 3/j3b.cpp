@@ -10,7 +10,11 @@ int main(void)
 {
     string temp_ligne;
     char temp_symbole;
-    int nb_ligne_ok = 0;
+    int nb_ligne_ok_c1 = 0; // 1:1
+    int nb_ligne_ok_c2 = 0; // 3:1
+    int nb_ligne_ok_c3 = 0; // 5:1
+    int nb_ligne_ok_c4 = 0; // 7:1
+    int nb_ligne_ok_c5 = 0; // 1:2
     int pos_x = 0;
     int pos_y = 0;
     char arbre ='#';
